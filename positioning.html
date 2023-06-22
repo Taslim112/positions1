@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>css positioning</title>
+<style>
+    h2{
+        font-style: normal;
+        text-align: center;
+        background-color: aquamarine;
+        color: blueviolet;
+    }
+    
+    div.relative {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 3px solid purple;
+  color:darkblue;
+    }
+div.absolute{
+  position: absolute;
+  top:50px;
+  right:50px;
+  width: 200px;
+  height: 200px;
+  border: 3px solid blue;
+
+}
+  div.fixed {
+  position: fixed ;
+  border: 3px solid #73AD21;
+  width: 200px;
+  height: 200px;
+  top:50px;
+  left:600px;
+}
+</style>
+</head>
+<body>
+<h2>Position:Absolute, Relative, Static</h2>
+<div class="relative">This div element has position: relative</div>
+<div class="absolute">This div element has position:absolute</div>
+<div class="fixed">This div element has position:fixed</div>
+</body>
+</html>
